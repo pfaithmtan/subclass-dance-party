@@ -1,6 +1,5 @@
 var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this);
-  console.log('inside make blinkyDancer', this);
   this.blinkyDancer = new makeDancer(top, left, timeBetweenSteps);
 
   // we plan to overwrite the step function below, but we still want the superclass
